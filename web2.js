@@ -261,7 +261,7 @@ function style1(){
         container.appendChild(div);
         div.style.color = "rgb(82, 82, 201)";
         div.style.fontSize = "250%";
-        div.style.margin = "6.5% 0 0 32%";
+        div.style.margin = "6.5% 0 0 35%";
         div.style.paddingLeft = "0.8%";
         div.style.width = "18%";
         bool4=true;
