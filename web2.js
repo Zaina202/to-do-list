@@ -33,7 +33,7 @@ function init(){
        let div1 = `<div class = "job">
                    <img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt">
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2">${object.jobArray[i]}</h3>
+                   <a href="index.html"><p class = "p2">${object.jobArray[i]}</p></a>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
@@ -53,7 +53,10 @@ function init(){
     check.addEventListener("click",full); 
     let igon=qs(".divIcon");
     igon.addEventListener("click",igon7);
+
+   
 }
+
 function focusSearch(){
     let input=qs("#inputSearch");
     input.focus();
