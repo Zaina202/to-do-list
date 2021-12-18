@@ -53,7 +53,7 @@ function init(){
     check.addEventListener("click",full); 
     let igon=qs(".divIcon");
     igon.addEventListener("click",igon7);
-
+    btn2.addEventListener("click",filterloc);
    
 }
 
@@ -270,7 +270,16 @@ function style1(){
         bool4=false;
     }
 }
-
+function filterloc(){
+    let loc = qs("#inputPosition").value;
+    let jobs = qsa(".job");
+    for(let i = 0;i<jobs.length;i++){
+        let text = jobs[i].lastElementChild.textContent.toLowerCase();
+        if(!(text.includes(loc))){
+            jobs[i].style.display="none";
+        }
+    }
+}
 
 
 
