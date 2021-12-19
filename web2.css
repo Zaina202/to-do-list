@@ -59,7 +59,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     border-radius: 50%;
     background:rgb(45, 45, 46);;
 } 
-#am{ margin: 5% 10% 0 0; border-radius: 10px; }
+#am{ margin: 2.5% 10% 0 0; border-radius: 10px; }
 #pm{ margin: 5% 0 0 10%; border-radius: 10px; }
 
 #title{
@@ -101,6 +101,16 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     flex-wrap:wrap;
 }
 .job{
+    border-radius: 5px;
+    background-color: white;
+    width: 23%;
+    height: 200px;
+    margin:32px 0px 32px 32px;
+    position: relative;
+    padding: 0 1.7% 1.7% 2%;
+}
+.job1{
+    display: none;
     border-radius: 5px;
     background-color: white;
     width: 23%;

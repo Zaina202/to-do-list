@@ -51,9 +51,9 @@ function init(){
     let mydiv=qs('.jobContainer');
     for(let i = 0;i<12;i++){
        let div1 = `<div class = "job">
-                   <img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt">
+                   <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2">${object.jobArray[i]}</h3>
+                   <p class = "p2"><a href = "index.html">${object.jobArray[i]}</a></p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
@@ -63,7 +63,7 @@ function init(){
         let div2 = `<div class = "job1">
                    <img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt">
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2">${object.jobArray[i]}</h3>
+                   <p class = "p2">${object.jobArray[i]}</p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
@@ -440,16 +440,6 @@ function loadM(){
     bool5=true;
 }
 
-// function filterloc(){
-//     let loc = qs("#inputPosition").value;
-//     let jobs = qsa(".job");
-//     for(let i = 0;i<jobs.length;i++){
-//         let text = jobs[i].lastElementChild.textContent.toLowerCase();
-//         if(!(text.includes(loc))){
-//             jobs[i].style.display="none";
-//         }
-//     }
-// }
 
 
 
