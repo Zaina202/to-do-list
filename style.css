@@ -59,7 +59,9 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     padding: 30px 0 0 80px;
 }
 #title{
-    font: 200% monospace;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
     margin: 0 0 3.7% 7%;
     height: 10%;
 }
@@ -144,24 +146,4 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 .W{
     color:rgb(143, 141, 141);
 }
-#ppp{
-    color:rgb(143, 141, 141);
-}
-#W2{
-    color:rgb(143, 141, 141); 
-}
-#P11 { 
-    color: black;
-}
 #P22 { color: rgb(82, 82, 201);}
-#P33 { 
-    color: black;
-    font-size: medium;
-}
-#P44{
-    color: black;
-    font-size: medium;
-}
-#P55{
-    color: black;
-}
