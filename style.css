@@ -1,9 +1,53 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    
+    font-family: sans-serif;   
+
 }
+.divIcon{
+    float: right;
+    display: flex;
+    margin: 5px 180px 0 0;
+    width: 10%;
+}
+#igon2{
+    position :relative;
+    width:40%;
+    height:-25%;
+    background: white;
+    border-radius :20px;
+    margin: 3px 0 0 0 ;
+}
+#igon2:after{
+    position : absolute;
+    left: 10%;
+    top: 15%;
+    content:"";
+    height :70%;
+    width:30%;
+    border-radius: 50%;
+    background:rgb(82, 82, 201);;
+}
+#igon3{
+    position :relative;
+    width:40%;
+    height:-25%;
+    background: white;
+    border-radius :20px;
+    margin: 3px 0 0 0 ;
+}
+#igon3:after{
+    position : absolute;
+    right: 10%;
+    top: 15%;
+    content:"";
+    height :70%;
+    width:30%;
+    border-radius: 50%;
+    background:rgb(45, 45, 46);;
+} 
+#am{ margin: 5% 10% 0 0; border-radius: 10px; }
+#pm{ margin: 5% 0 0 10%; border-radius: 10px; }
 body { background-color: rgba(199, 196, 196, 0.473);}
 .header{
     background-image: url("https://gcdn.pbrd.co/images/9s8dhepfQKU3.png?fbclid=IwAR3opU1rRLU9ZZXcJI-wFXWZqkT8BQrp5K6CyVzLDZThUn__gf-pmzHf3cQ");
@@ -37,13 +81,10 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 .words { margin: 0 35% 0 0;} 
 #Tpart{margin: 34px;}
 #Bpart{margin: 0 0 0 20%;}
-#W1{
-    color: black;
-    font-family: Sans-serif;
-}
+
 .foo{
     background-color: white;
-    width: 105.4%;
+    width: 100.69%;
     height: 50px;
     color: black;
     padding: 34px;
@@ -58,8 +99,8 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 .bodydiv{
     background-color: white;
     width: 52%;
-    margin: 108px 0 0 23.3%;
-    padding: 4%;
+    padding:4%;
+    margin: 108px 0 0 22.7%;
 }
 #btn1{
     position: absolute;
@@ -96,21 +137,32 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 #bottom{
     width: 52%;
 }
+#W1{
+    color: black;
+    font-family: Sans-serif;
+}
 .W{
     color:rgb(143, 141, 141);
 }
-#P1 { 
+#ppp{
+    color:rgb(143, 141, 141);
+}
+#W2{
+    color:rgb(143, 141, 141); 
+}
+#P11 { 
     color: black;
 }
-#P2 { color: rgb(82, 82, 201);}
-#P3 { 
+#P22 { color: rgb(82, 82, 201);}
+#P33 { 
     color: black;
     font-size: medium;
 }
-#P4{
+#P44{
     color: black;
     font-size: medium;
 }
-#P5{
+#P55{
     color: black;
 }
+
