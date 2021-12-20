@@ -57,7 +57,7 @@ function init(){
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
-        mydiv.innerHTML += div1;
+        mydiv.innerHTML += div1;           
     }
     for (let i = 12; i < 24; i++) {
         let div2 = `<div class = "job1">
