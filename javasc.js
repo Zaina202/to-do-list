@@ -13,7 +13,7 @@
         let header = qs(".header");
         let par = qsa(".W");
         let foo = qs(".foo");
-        let divsit = qs(".sit");
+        let divsit = qsa(".sit");
         let bodydiv = qs(".bodydiv");
         let btn1 = qs("#btn1");
         let btn = qsa(".btn");
@@ -23,8 +23,10 @@
             i.setAttribute("id", "igon3");
             document.body.style.backgroundColor = "rgba(0, 0, 0, 0.977)";
             header.style.backgroundImage = "url('https://ak.picdn.net/shutterstock/videos/24223834/thumb/1.jpg')";
-            divsit.style.backgroundColor = "rgb(143, 141, 141)";
             bodydiv.style.backgroundColor = "rgb(143, 141, 141)";
+            for(let i=0;i<divsit.length;i++){
+                divsit[i].style.backgroundColor = "rgb(143, 141, 141)";
+            }
             for (let i = 0; i < par.length; i++) {
                 par[i].style.color = "white";
             }
@@ -44,7 +46,9 @@
             i2.setAttribute("id", "igon2");
             document.body.style.backgroundColor = "rgba(189, 189, 189, 0.473)";
             header.style.backgroundImage = "url('https://gcdn.pbrd.co/images/9s8dhepfQKU3.png?fbclid=IwAR3opU1rRLU9ZZXcJI-wFXWZqkT8BQrp5K6CyVzLDZThUn__gf-pmzHf3cQ')";
-            divsit.style.backgroundColor = "white";
+            for(let i=0;i<divsit.length;i++){
+                divsit[i].style.backgroundColor = "white";
+            }
             bodydiv.style.backgroundColor = "white";
             for (let i = 0; i < par.length; i++) {
                 par[i].style.color = "rgb(143, 141, 141)";
