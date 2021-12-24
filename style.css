@@ -89,7 +89,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     width: 100.69%;
     height: 50px;
     color: black;
-    padding: 34px;
+    padding: 34px ;
     margin-top: 5%;
 
 }
@@ -102,7 +102,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     background-color: white;
     width: 52%;
     padding:4%;
-    margin: 108px 0 0 22.7%;
+    margin: 108px 0 0 23.3%;
 }
 #btn1{
     position: absolute;
@@ -147,3 +147,8 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     color:rgb(143, 141, 141);
 }
 #P22 { color: rgb(82, 82, 201);}
+@media (max-width:1290px) {
+    .bodydiv { margin: 108px 0 0 25%;}
+
+    
+}
