@@ -59,14 +59,13 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     padding: 30px 0 0 80px;
 }
 #title{
-    font: 200% monospace;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
     margin: 0 0 3.7% 7%;
     height: 10%;
 }
-.part{
-    display: flex;
-    width: 90%;
-}
+
 .headContainer{
     height: 1000px;
     width: 94.7%;
@@ -78,17 +77,17 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     margin: 56px 0 0 17%;
     width: 60%;
 }
-.words { margin: 0 35% 0 0;} 
 #Tpart{margin: 34px;}
 #Bpart{margin: 0 0 0 20%;}
 
 .foo{
+    display:inline-block;
     background-color: white;
     width: 100.69%;
     height: 50px;
     color: black;
-    padding: 34px;
-    margin-top: 5%;
+    padding: 34px 34px 50px 34px ;
+    margin-top: 4%;
 
 }
 #imgscoot{
@@ -100,7 +99,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     background-color: white;
     width: 52%;
     padding:4%;
-    margin: 108px 0 0 22.7%;
+    margin: 108px 0 0 23.3%;
 }
 #btn1{
     position: absolute;
@@ -115,6 +114,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     border-radius: 2px;
 
 }
+#homeicon{content-visibility: hidden;}
 .btn{
     width: 109px;
     height: 32px;
@@ -132,11 +132,8 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 #btn3 { 
     position: absolute;
     left: 70%;
-    
 }
-#bottom{
-    width: 52%;
-}
+#bottom { width: 52%;}
 #W1{
     color: black;
     font-family: Sans-serif;
@@ -144,25 +141,50 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 .W{
     color:rgb(143, 141, 141);
 }
-#ppp{
-    color:rgb(143, 141, 141);
-}
-#W2{
-    color:rgb(143, 141, 141); 
-}
-#P11 { 
-    color: black;
-}
 #P22 { color: rgb(82, 82, 201);}
-#P33 { 
-    color: black;
-    font-size: medium;
+@media (max-width:1279px) {
+    .bodydiv { margin: 108px 0 0 25%;}
+    .foo { padding: 34px 34px 34px 50px ;}
+    .divIcon {margin: 5px 160px 0 0; width: 11%;}
 }
-#P44{
-    color: black;
-    font-size: medium;
+@media (max-width:970px) {
+    .bodydiv { margin: 108px 0 0 26%;}
+    .foo { padding: 34px 40px 34px 50px ;    }
+    .divIcon { margin: 5px 140px 0 0; width: 12%;}
+    #btn2 { margin: 0 1% 5% 0;}
+    .W1 { font-size: large;}
 }
-#P55{
-    color: black;
+@media (max-width:880px) {
+    .bodydiv { margin: 108px 0 0 27%;}
+    .divIcon { margin: 5px 130px 0 0; width: 13%;}
+    .btn { width: 95px; height: 27px;}
+    #btn1 { width: 95px; height: 27px; margin: 1% 0 0 0;}
+    #btn2 { margin:0 0  5% 0;}
+    .foo { padding: 34px 50px 34px 50px ; }
 }
+@media (max-width:750px) {
+    .bodydiv { margin: 108px 0 0 28.5%;}
+    .divIcon { margin: 5px 105px 0 0; width: 15%;}
+}
+@media (max-width:680px) {
+    .bodydiv { margin: 108px 0 0 30%;}
+    .divIcon{ margin: 5px 90px 0 0; width: 16%;}
+    .W1{ font-size: medium;}
+}
+@media (max-width:650px) {
+   #btn1{margin-left: 1.5%;}
+    #Tpart{margin: 34px 10px 34px 10px;}
+}
+@media (max-width:600px) {
+    .bodydiv { margin: 108px 0 0 32.5%;}
+    #btn1{ margin-left: 7%; width: 50px; height: 35px;}
+    #H{content-visibility: hidden;}
+    #homeicon{font-size: 20px ; content-visibility: visible;}
+        .divIcon{ margin: 5px 50px 0 0; width: 18%;}
+        #btn1{margin-left: 9%;}
 
+}
+@media (max-width:550px) {
+    
+    .bodydiv { width: 55%;}
+}
