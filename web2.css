@@ -186,9 +186,10 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     .job{width: 22%;}
     .divIcon { margin: 5px px 0 0;}
     #btnL{ margin: 3% 0 0 36%; }
-   
 }
+@media (max-width:1000px) { .divIcon { width: 11%;}}
 @media (max-width:900px) {
+    .divIcon {   width: 12%;}
     .job{width: 36%;}
     .jobContainer{ margin: 5% 0 0 13%;}
     #checktext{ margin: 2.8% 0 0.5% 0; height: 17px; }
@@ -201,6 +202,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     #btnS{ margin: 1% 1.5% 0 1.5%;}
 }
 @media (max-width:800px) {
+    .divIcon { width: 14%;}
     #containerSearch{height: 50%;}
     #checktext{ margin: 3.2% 0 0.5% 0; height: 16px; }
     #check{  margin: 3.2% 1% 0 1.5%;}
@@ -210,6 +212,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     #btnS{ margin: 1.2% 1.5% 0 1.5%; padding-top: 2%;}
 }
 @media (max-width:690px) {
+    .divIcon { width: 16%;}
     .jobContainer{ margin: 7% 0 0 15%;}
     #checktext{  margin: 4.2% 0 0.5% 0; font:bold x-small Sans-serif; height: 10px; }
     #check{  margin: 4% 1% 0 1.5%;}
@@ -220,7 +223,9 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     #btnS{width: 100px; }
     #btnL{ margin: 3% 0 0 34%; }
 }
+@media (max-width:560px){.divIcon { width: 18%;}}
 @media (max-width:560px){
+    .divIcon { width: 20%;}
     #imageSearch{ margin: 4% 0.4% 2% 2%;}
     #imagePosition{ margin: 2.8% 0 0 1%;}
     .input { margin: 2.1% 0 0 0; font-size: xx-small; }
@@ -232,6 +237,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     #checktext { font-size:x-small;}
 }
 @media (max-width:500px) {
+    .divIcon { width: 27%;}
     .jobContainer { margin: 10% 0 0 20%;}
     #inputPosition { display: none;}
     #inputSearch{ padding: 0.7% 0 0 2%; margin: 3% 0 0 2%; }
@@ -252,6 +258,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     .imageAlt{width:40px; height:40px; top:-20px; left:-1px; }
 }
 @media (max-width:400px) {
+    .divIcon { width: 29%;}
     #icon {content-visibility:visible ;margin-top: 5px; }
     .header{width:105%}
     #containerSearch{width: 75%; margin: 60px 0 0 10px;}
@@ -264,6 +271,8 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     #S { content-visibility:hidden ;}
     #title{margin: 0 0 3.7% 1%;}
 }
+@media (max-width:350px){ .divIcon { width: 31%;}}
+
 @media (max-width:300px){
     #containerSearch{margin: 60px 0 0 -4%;}
     #title{margin: 0 0 3.7% -5%;}
