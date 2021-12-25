@@ -93,7 +93,6 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 #imgscoot{
     width:110px ;
     height: 110px;
-    margin: 0 0 0 0;
 }
 .bodydiv{
     background-color: white;
@@ -105,13 +104,14 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     position: absolute;
     left: 66%;
     width: 109px;
-    height: 32px;
     margin: 0 0 5% 0;
+    height: 32px;
     color: rgb(82, 82, 201);
     background-color: rgba(199, 196, 196, 0.445);
     font-family: Sans-serif;
     border: 2px solid rgba(199, 196, 196, 0.473);
     border-radius: 2px;
+    padding: 0.5% 0 0 0;
 
 }
 #homeicon{content-visibility: hidden;}
@@ -182,9 +182,64 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     #homeicon{font-size: 20px ; content-visibility: visible;}
         .divIcon{ margin: 5px 50px 0 0; width: 18%;}
         #btn1{margin-left: 9%;}
-
 }
 @media (max-width:550px) {
+    .sit{width: 65%;}
+    #btn1{margin-left: 13%;}
+    .btn{width: 80px;}
+    .bodydiv { width: 57%;}
+    #btn3 { left: 77%; }
+    .divIcon{ margin: 5px 40px 0 0; width: 18%;}
+}
+@media (max-width:500px) {.bodydiv { margin: 108px 0 0 34.5%;}}
+@media (max-width:460px){
+    .sit { width: 71%;  height: 80%;  margin: 56px 0 0 14%; }
+    #imgscoot { width:80px ; height: 80px;}
+    #Tpart { margin: 22px;}
+    #btn1 { margin: 0 0 0 16%;}
+    .bodydiv { width: 63%;  margin: 90px 0 0 33%;}
+    #btn3 {left: 85%;}
+    .divIcon { margin: 5px 20px 0 0; width: 22%;}
+    .foo{padding: 34px 45px 34px 34px ;}
+    .W{font-size: small;}
+    #P22{font-size: small;}
+}
+@media (max-width:430px){
+    .bodydiv { margin: 90px 0 0 34%;}
+    .divIcon { margin: 5px 15px 0 0; width: 24%;}
+}
+@media (max-width:400px){
+    #Tpart { margin: 22px 15px ;}
+    #btn1 { margin: 0 0 0 18%;}
+    .bodydiv {  margin: 90px 0 0 36%;}
     
-    .bodydiv { width: 55%;}
+}
+@media (max-width:370px){
+    .W1 {font-size: small;}
+    .W {font-size: x-small;}
+    #P22 {font-size: x-small;}
+    .bodydiv {  margin: 90px 0 0 38%;}
+    #Tpart { margin: 25px 15px ;}
+    #btn1 { margin-left: 20%; width: 42px; height: 27px;}
+    .btn { width: 75px; height: 23px; padding: 5px; font-size:x-small ;}
+    .divIcon { margin: 5px 10px 0 0; width: 26%;}
+}
+@media (max-width:330px){ .bodydiv { margin: 85px 0 0 39.5%;}}
+@media (max-width:350px){
+    .bodydiv { width: 65%; margin: 85px 0 0 40%;}
+    .divIcon { margin: 5px 3px 0 0; width: 28%;}
+    #btn1{margin: 0 0 0 24%;}
+    #Tpart { margin: 25px 10px ;}
+    .sit { width: 73%;  height: 75%;  margin: 56px 0 0 14%; }
+    #imgscoot { width:75px ; height: 75px;}
+
+}
+@media (max-width:300px){
+#sc1 { visibility: hidden;}
+#sc2 { visibility: hidden;}
+.bodydiv { margin: 85px 0 0 44%;}
+.btn { width: 56px; height: 18px; font-size: small; padding: 0.5px; }
+#btn3 { left: 92%;}
+
+
 }

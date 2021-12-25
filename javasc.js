@@ -13,8 +13,7 @@ function icon(){
     let i=qs("#igon2");
     let i2=qs("#igon3");
     let header=qs(".header");
-    let p1=qsa("#W2");
-    let p2=qsa("#ppp");
+    let p1=qsa(".W");
     let foo=qs(".foo");
     let divsit=qs(".sit");
     let bodydiv=qs(".bodydiv");
@@ -31,9 +30,7 @@ function icon(){
         for(let i=0;i<p1.length;i++){
             p1[i].style.color="white";
         }
-        for(let i=0;i<p2.length;i++){
-            p2[i].style.color="white";
-        }
+       
         foo.style.backgroundColor="rgb(143, 141, 141)";
         btn1.style.backgroundColor="rgba(0, 0, 0, 0.977)";
         btn1.style.color="white"
@@ -54,9 +51,6 @@ function icon(){
         bodydiv.style.backgroundColor="white";
         for(let i=0;i<p1.length;i++){
             p1[i].style.color="rgb(143, 141, 141)";
-        }
-        for(let i=0;i<p2.length;i++){
-            p2[i].style.color="rgb(143, 141, 141)";
         }
         foo.style.backgroundColor="white";
         btn1.style.backgroundColor="rgba(199, 196, 196, 0.473)";
