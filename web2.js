@@ -51,9 +51,9 @@
         let mydiv = qs('.jobContainer');
         for (let i = 0; i < 12; i++) {
             let div1 = `<div class = "job">
-                   <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
+                   <a href = "index.html" target='_blank' ><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
+                   <p class = "p2" ><a href="index.html" target='_blank'>${object.jobArray[i]}</a></p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
@@ -61,9 +61,9 @@
         }
         for (let i = 12; i < 24; i++) {
             let div2 = `<div class = "job1">
-        <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
+        <a href = "index.html" target='_blank'><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
+                   <p class = "p2" ><a href="index.html" target='_blank'>${object.jobArray[i]}</a></p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
