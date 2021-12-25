@@ -59,7 +59,9 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     border-radius: 50%;
     background:rgb(45, 45, 46);;
 } 
-#am{ margin: 2.5% 10% 0 0; border-radius: 10px; }
+/* #am{ margin: 2.5% 10% 0 0; border-radius: 10px; }
+#pm{ margin: 5% 0 0 10%; border-radius: 10px; } */
+#am{ margin: 5% 10% 0 0; border-radius: 10px; }
 #pm{ margin: 5% 0 0 10%; border-radius: 10px; }
 
 #title{
@@ -119,7 +121,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     position: relative;
     padding: 0 1.7% 1.7% 2%;
 }
-.p1{ color:black; font-size:small; font-family: Sans-serif; }
+.p1{ color:rgb(143, 141, 141); font-size:small; font-family: Sans-serif; }
 .p2{
     color: black;
     font-weight: bold;
