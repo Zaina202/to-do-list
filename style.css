@@ -144,6 +144,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     color:rgb(143, 141, 141);
 }
 #P22 { color: rgb(82, 82, 201);}
+@media (max-width:1920px){ .bodydiv { margin: 108px 0 0 22.6%;} .divIcon { margin: 5px 100px 0 0; }}
 @media (max-width:1281px) { .bodydiv { margin: 108px 0 0 23.6%;}}
 @media (max-width:1279px) {
     .bodydiv { margin: 108px 0 0 25%;}
