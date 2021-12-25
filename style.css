@@ -81,7 +81,7 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 #Bpart{margin: 0 0 0 20%;}
 
 .foo{
-    display:inline-block;
+    /* display:inline-block; */
     background-color: white;
     width: 100.69%;
     height: 50px;
@@ -144,7 +144,10 @@ body { background-color: rgba(199, 196, 196, 0.473);}
     color:rgb(143, 141, 141);
 }
 #P22 { color: rgb(82, 82, 201);}
-@media (max-width:1920px){ .bodydiv { margin: 108px 0 0 22.6%;} .divIcon { margin: 5px 100px 0 0; }}
+@media (max-width:1920px){ 
+    .bodydiv { margin: 108px 0 0 22.6%;} 
+    .divIcon { margin: 5px 100px 0 0; }
+}
 @media (max-width:1281px) { .bodydiv { margin: 108px 0 0 23.6%;}}
 @media (max-width:1279px) {
     .bodydiv { margin: 108px 0 0 25%;}
@@ -244,11 +247,21 @@ body { background-color: rgba(199, 196, 196, 0.473);}
 @media (max-width:330px){ .bodydiv { margin: 85px 0 0 40.2%;}}
 
 @media (max-width:300px){
+.sit {  margin: 56px 0 0 0;width: 80%; }
+.bodydiv { margin: 85px 0 0 25%;   width: 56%;}
+.foo{padding: 34px 0 34px 28px ; width: 95%;}
+#btn3{left: 70%;}
+#btn1{margin-left: 0;}
+#title{margin: 0 0 3.7% 0;}
+.divIcon { margin: 5px 0 0 0;width: 35%;}
+.header{width: 80%;padding: 30px 0 0 67px;}
+#Bpart{margin: 0 0 0 0;}
+/* ---------------------------------------------- */
 #sc1 { visibility: hidden;}
 #sc2 { visibility: hidden;}
-.bodydiv { margin: 85px 0 0 44%;}
+/* .bodydiv { margin: 85px 0 0 44%;} */
 .btn { width: 56px; height: 18px; font-size: small; padding: 0.5px; }
-#btn3 { left: 92%;}
+/* #btn3 { left: 92%;} */
 
 
 }
