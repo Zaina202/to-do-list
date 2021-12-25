@@ -386,8 +386,8 @@
             div.setAttribute("class", "found");
             container.appendChild(div);
             div.style.color = "rgb(82, 82, 201)";
-            div.style.fontSize = "300%";
-            div.style.margin = "6.5% 0 0 32%";
+            div.style.fontSize = "200%";
+            div.style.margin = "6.5% 0 0 37%";
             div.style.paddingLeft = "0.8%";
             div.style.width = "18%";
             bool4 = true;
