@@ -53,7 +53,7 @@ function init(){
        let div1 = `<div class = "job">
                    <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2"><a href = "index.html">${object.jobArray[i]}</a></p>
+                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;
@@ -63,7 +63,7 @@ function init(){
         let div2 = `<div class = "job1">
         <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2"><a href = "index.html">${object.jobArray[i]}</a></p>
+                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
                    </div>`;

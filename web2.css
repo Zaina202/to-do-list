@@ -126,6 +126,7 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
     margin: 4% 0 4% 0;
     font-family: Sans-serif;
     font-size:large;
+    cursor:pointer;
 }  
 .p3{
     color: rgb(82, 82, 201);
