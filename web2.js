@@ -318,6 +318,7 @@
         let btn = qsa(".button");
         let btnL = qs("#btnL");
         let imageP = qs("#imagePosition");
+        let inputS=qs("#inputSearch");
         if (bool3 === true) {
             let job = qsa(".job");
             let job2 = qsa(".job1");
@@ -342,10 +343,10 @@
             document.body.style.backgroundColor = "rgba(0, 0, 0, 0.977)";
             header.style.backgroundImage = "url('https://ak.picdn.net/shutterstock/videos/24223834/thumb/1.jpg')";
             imageP.src = "https://png.pngtree.com/element_our/20190530/ourmid/pngtree-positioning-icon-image_1257306.jpg";
-            imageP.style.width = "2.4%";
-            imageP.style.height = "40%";
-            imageP.style.marginTop = "2%";
-            imageP.style.marginLeft = "3%"
+            imageP.style.width = "1.7%";
+            imageP.style.height = "34%";
+            imageP.style.margin = "2% 0 0 1.1%";
+            inputS.style.paddingLeft="1.5%"
             bool3 = false;
         }
         else {
@@ -370,9 +371,9 @@
                 btn[i].style.border = "rgb(82, 82, 201)";
             }
             imageP.src = "https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color/254000/66-512.png";
-            imageP.style.height = "57%";
-            imageP.style.width = "3.5%";
-            imageP.style.marginTop = "1.5%";
+            imageP.style.height = "30px";
+            imageP.style.width = "30px";
+            imageP.style.margin= "1.7% 0.4% 2% 1%";
             header.style.backgroundImage = "url('https://gcdn.pbrd.co/images/9s8dhepfQKU3.png?fbclid=IwAR3opU1rRLU9ZZXcJI-wFXWZqkT8BQrp5K6CyVzLDZThUn__gf-pmzHf3cQ')";
             bool3 = true;
         }
