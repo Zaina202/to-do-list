@@ -1,7 +1,8 @@
 "use strict";
 (function () {
     window.addEventListener("load", init);
-    let object = {
+    // images and strings for the jobs
+    let object = { 
         imageArray: ["https://gcdn.pbrd.co/images/DFXqxGsDIOHB.jpg?o=1%22", "https://gcdn.pbrd.co/images/6FVlbd734aIY.jpg?o=1%22", "https://gcdn.pbrd.co/images/zCZn4ULT93aj.jpg?o=1%22",
             "https://gcdn.pbrd.co/images/LW1y7dEVjXwz.jpg?o=1%22", "https://gcdn.pbrd.co/images/ROLiOxxlLOi8.jpg?o=1%22", "https://gcdn.pbrd.co/images/NR8c1mAfvfeJ.jpg?o=1%22",
             "https://gcdn.pbrd.co/images/DKRxepulTVUb.jpg?o=1%22", "https://gcdn.pbrd.co/images/PfZJzjYr1gs4.jpg?o=1%22", "https://gcdn.pbrd.co/images/dZdtsviTrlMt.jpg?o=1%22",
@@ -49,44 +50,48 @@
     }
     function init() {
         let mydiv = qs('.jobContainer');
+        // creating job divs
         for (let i = 0; i < 12; i++) {
             let div1 = `<div class = "job">
-                   <a href = "index.html" target='_blank' ><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
+                   <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2" ><a href="index.html" target='_blank'>${object.jobArray[i]}</a></p>
+                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
-                   </div>`;
-            mydiv.innerHTML += div1;
+                   </div>`; 
+        
+            mydiv.innerHTML += div1; // adding them to the container
         }
-        for (let i = 12; i < 24; i++) {
+        // creating load more button divs
+        for (let i = 12; i < 24; i++) { 
             let div2 = `<div class = "job1">
-        <a href = "index.html" target='_blank'><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
+        <a href = "index.html"><img src = "${object.imageArray[i]}" alt = "Error image" class = "imageAlt"></a>
                    <p class = "p1">${object.timeArray[i]}</p>
-                   <p class = "p2" ><a href="index.html" target='_blank'>${object.jobArray[i]}</a></p>
+                   <p class = "p2" onclick = "window.location.href = 'index.html'">${object.jobArray[i]}</p>
                    <p class = "p1">${object.companyArray[i]}</p>
                    <p class = "p3">${object.areaArray[i]}</p>
-                   </div>`;
-            mydiv.innerHTML += div2;
+                   </div>`; 
+    
+            mydiv.innerHTML += div2; // adding them to the container
         }
-        let myBtn = `<div id = "btnDiv"><button id = "btnL" class= "button" >Load More</button></div>`;
-        mydiv.innerHTML += myBtn;
+        let myBtn = `<div id = "btnDiv"><button id = "btnL" class= "button" >Load More</button></div>`; // creating load More button
+        mydiv.innerHTML += myBtn; // adding it under the divs of jobs
         let btn = qs("#imageSearch");
-        btn.addEventListener("click", focusSearch);
+        btn.addEventListener("click", focusSearch); // onclick on the search image it focus on the input text near the image
         let btn1 = qs("#imagePosition");
-        btn1.addEventListener("click", focusPosition);
+        btn1.addEventListener("click", focusPosition); // onclick on the location image it focus on the input text near the image
         let btn2 = qs("#btnS");
-        btn2.addEventListener("click", search);
+        btn2.addEventListener("click", search); // onlick on the search button it will go to search about what you wrote in input texts (location or title)
         let input = qs("#inputSearch");
-        input.addEventListener("click", add);
+        input.addEventListener("click", add); // onclick or onfocus one more time on the title input it make the job divs back (default mode)
         let input2 = qs("#inputPosition");
-        input2.addEventListener("click", add);
+        input2.addEventListener("click", add); // onclick or onfocus one more time on the location input it make the job divs back (default mode)
         let check = qs("#check");
-        check.addEventListener("click", full);
+        check.addEventListener("click", full); // on checked it goes to see what job divs have a full time work (without or with search using title or location)
         let igon = qs(".divIcon");
-        igon.addEventListener("click", igon7);
+        igon.addEventListener("click", igon7); // onclick it returns dark/light mode
         let btnL = qs("#btnL");
-        btnL.addEventListener("click", loadM);
+        btnL.addEventListener("click", loadM); // it shows us more div jobs (more height for the page)
     }
     function focusSearch() {
         let input = qs("#inputSearch");
@@ -101,7 +106,7 @@
         let input = qs("#inputSearch");
         let btn1 = qs("#btnL");
         let regExp = /[^a-z]/g;
-        let temp = input.value.toLowerCase().replace(regExp, '');
+        let temp = input.value.toLowerCase().replace(regExp, ''); 
         let flag = 0;
         let loc = qs("#inputPosition").value;
         if (loc !== "") {
