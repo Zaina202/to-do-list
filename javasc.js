@@ -6,8 +6,7 @@
         let igon=qs(".divIcon");
     igon.addEventListener("click",icon);
     }
-
-  
+    
 let bool=true;
 function icon(){
     let i=qs("#igon2");
@@ -19,7 +18,6 @@ function icon(){
     let bodydiv=qs(".bodydiv");
     let btn1=qs("#btn1");
     let btn=qsa(".btn");
-   
     if(bool===true){
         i.removeAttribute("id","igon2");
         i.setAttribute("id","igon3");
@@ -30,7 +28,6 @@ function icon(){
         for(let i=0;i<p1.length;i++){
             p1[i].style.color="white";
         }
-       
         foo.style.backgroundColor="rgb(143, 141, 141)";
         btn1.style.backgroundColor="rgba(0, 0, 0, 0.977)";
         btn1.style.color="white"
@@ -39,7 +36,6 @@ function icon(){
             btn[i].style.border="2px solid rgba(0, 0, 0, 0.977)"
             btn[i].style.backgroundColor="rgba(0, 0, 0, 0.977)";
         }
-      
         bool=false;
     }
     else{
@@ -60,9 +56,6 @@ function icon(){
             btn[i].style.backgroundColor="rgb(82, 82, 201)";
             btn[i].style.border="2px solid rgb(82, 82, 201)";
         }
-
-
-
         bool=true;
      }
    

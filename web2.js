@@ -89,7 +89,7 @@
         let check = qs("#check");
         check.addEventListener("click", full); // on checked it goes to see what job divs have a full time work (without or with search using title or location)
         let igon = qs(".divIcon");
-        igon.addEventListener("click", igon7); // onclick it returns dark/light mode
+        igon.addEventListener("click", icon); // onclick it returns dark/light mode
         let btnL = qs("#btnL");
         btnL.addEventListener("click", loadM); // it shows us more div jobs (more height for the page)
     }
@@ -314,7 +314,7 @@
         if (flag === 12) { btn1.style.display = "block"; }
     }
     let bool3 = true;
-    function igon7() {
+    function icon() {
         let i = qs("#igon2");
         let i2 = qs("#igon3");
         let header = qs(".header");
