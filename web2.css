@@ -176,13 +176,11 @@ body{ background-color: rgba(189, 189, 189, 0.473); }
 a {
     color: black;
     text-decoration: none;
-  }
-a:hover
- {
+}
+a:hover{
     color: rgb(82, 82, 201);
     text-decoration: none;
-  }
-  
+}
 @media (max-width:1290px){
     .divIcon { margin: 5px 14% 0 0;}
 }
